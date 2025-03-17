@@ -1,0 +1,1273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9180687421608661548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a0f181ecb5d29488b02148d3a2ce0f, type: 3}
+  m_Name: CheckIsSummonPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3d0dd11f6e4c75349b07afd6fb965e42
+  position: {x: -327.00006, y: 870}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC18C\uD658\uC218 \uD328\uD134 \uC911\uC774\uBA74 \uC790\uC2DD \uB178\uB4DC\uB97C
+    \uC2E4\uD589\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+  child: {fileID: -6826076804095671389}
+  needPatternCount: 0
+--- !u!114 &-9151206538441652150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da20f8c63f0f3964c86c4b389c0828e9, type: 3}
+  m_Name: CheckRatioNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: db019b00e4103fe4b8e0552397edd515
+  position: {x: -526.0502, y: 1280.7003}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC9C0\uC815\uB41C \uBE44\uC728\uACFC \uCCB4\uB825\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: -8925111402433611325}
+  SetPercent: 0
+  cooperativePattern: 2
+  IsOnlyPhase2: 1
+--- !u!114 &-9140575694448508886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 858bb69cb05774b448541fece4e6eda0, type: 3}
+  m_Name: SequenceNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 362c5896d0002674d8d7428c5ee06649
+  position: {x: 0, y: 245}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC790\uC2E0\uC758 \uC790\uC2DD\uB4E4\uC744 \uC21C\uCC28\uC801\uC73C\uB85C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  children:
+  - {fileID: -7541053887402137666}
+  - {fileID: 2407252297211783485}
+--- !u!114 &-8979859842835180560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a0f181ecb5d29488b02148d3a2ce0f, type: 3}
+  m_Name: CheckIsSummonPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 46fad30f91fe2614581b7e507222a99c
+  position: {x: 1103.0325, y: 1377}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC18C\uD658\uC218 \uD328\uD134 \uC911\uC774\uBA74 \uC790\uC2DD \uB178\uB4DC\uB97C
+    \uC2E4\uD589\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+  child: {fileID: -8001324749021551419}
+  needPatternCount: 3
+--- !u!114 &-8925111402433611325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13b56dc050aa134a917b7cceca431fd, type: 3}
+  m_Name: SpecialPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a42cf3ad3605eab48bdf05a4fc9368f0
+  position: {x: -526.0502, y: 1411.7003}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uD2B9\uBCC4 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 2
+  isDisable: 0
+--- !u!114 &-8014993536703869859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d3fd7ef5eb3c544b43d5afd04e7256, type: 3}
+  m_Name: CheckIsSpecialPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: cde842981974fef4f9cc81370e90fc73
+  position: {x: -317, y: 754.99994}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uD2B9\uBCC4 \uD328\uD134 \uC911\uC774\uBA74 \uC790\uC2DD \uB178\uB4DC\uB97C
+    \uC2E4\uD589\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+  child: {fileID: -9180687421608661548}
+--- !u!114 &-8001324749021551419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1592aca4dc10f3e4690b299b1d1601f3, type: 3}
+  m_Name: RandomNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8dda085301bf3ad49a85f918fc3533cc
+  position: {x: 1151.2389, y: 1527.9999}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC790\uC2E0\uC758 \uC790\uC2DD\uB4E4 \uC911 \uD558\uB098\uB97C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  children:
+  - {fileID: 2705602784924924802}
+  - {fileID: 4747260188126047580}
+--- !u!114 &-7541053887402137666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25645b7ddd909548a51f7f160859cba, type: 3}
+  m_Name: CoolTimeNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: bcd856ca1fc763f42aa2a6cc01909c6a
+  position: {x: -271.9999, y: 384.99997}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC9C0\uC815\uD55C \uC2DC\uAC04\uB9C8\uB2E4 \uB178\uB4DC\uB97C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  child: {fileID: -3514117256930687035}
+  CoolTime: 5
+  isStartCoolTime: 0
+--- !u!114 &-7188009402518035007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dac98997ea81c849a51e1443e9d33ef, type: 3}
+  m_Name: SummonPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 4bb4c5cac37512449804413b761bf06a
+  position: {x: 22.999977, y: 1252.0002}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uC18C\uD658\uC218 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 2
+--- !u!114 &-6826076804095671389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a1ebbea6add8342a52d603a7f2ee3a, type: 3}
+  m_Name: CheckIsPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 3f8ac42a64670e2438dea8fdcce3bd3d
+  position: {x: -317, y: 981.60016}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uD328\uD134 \uC911\uC774\uBA74 \uC790\uC2DD \uB178\uB4DC\uB97C \uC2E4\uD589\uD558\uC9C0
+    \uC54A\uC2B5\uB2C8\uB2E4."
+  child: {fileID: 4950040666897257114}
+--- !u!114 &-6371152538492550014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25645b7ddd909548a51f7f160859cba, type: 3}
+  m_Name: CoolTimeNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 5543cca73cabc664db7d784f0ed68411
+  position: {x: 771.4791, y: 1376.833}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC9C0\uC815\uD55C \uC2DC\uAC04\uB9C8\uB2E4 \uB178\uB4DC\uB97C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  child: {fileID: -395581723209358927}
+  CoolTime: 90
+  isStartCoolTime: 1
+--- !u!114 &-5788443950028334189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab39be765d04009419d9ec8df209539b, type: 3}
+  m_Name: CheckStartNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: cef1f42e40804f9409000948f9da2c2e
+  position: {x: 0.0000121593475, y: 138.00003}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4 \uC804\uD22C \uC0C1\uD0DC \uC9C4\uC785 \uC5EC\uBD80\uB97C
+    \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: -9140575694448508886}
+--- !u!114 &-5319716271751810179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d3fd7ef5eb3c544b43d5afd04e7256, type: 3}
+  m_Name: CheckIsSpecialPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2f58bdce9ffa2784d9866d69ff455014
+  position: {x: 765.49994, y: 967.9165}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uD2B9\uBCC4 \uD328\uD134 \uC911\uC774\uBA74 \uC790\uC2DD \uB178\uB4DC\uB97C
+    \uC2E4\uD589\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+  child: {fileID: 1114782793022980037}
+--- !u!114 &-5180009765897640352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb955507cc53dc14baa85290d2a9fa67, type: 3}
+  m_Name: IsCheckHealthNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ed79981e109ea2b48aa227a2db683949
+  position: {x: 119, y: 727.2502}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uCCB4\uB825\uC774 \uB0A8\uC544\uC788\uB294\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: 5855058360106824017}
+--- !u!114 &-4899775345761643352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b184d0f7e6ca444afa5c98b570331a, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b1c0218de0ced93458f3a6a4055bab37
+  position: {x: 781, y: 1230}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC790\uC2E0\uC758 \uC790\uC2DD\uB4E4\uC744 \uC21C\uCC28 \uC2E4\uD589\uD558\uBA70
+    \uC131\uACF5 \uC2DC \uC885\uB8CC\uD569\uB2C8\uB2E4."
+  children:
+  - {fileID: -6371152538492550014}
+  - {fileID: -8979859842835180560}
+  - {fileID: 4776264816092486273}
+--- !u!114 &-4264150893237493456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f25645b7ddd909548a51f7f160859cba, type: 3}
+  m_Name: CoolTimeNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2a8cbc96d544eeb42b85660ffda09ecb
+  position: {x: 133.99997, y: 977.0001}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC9C0\uC815\uD55C \uC2DC\uAC04\uB9C8\uB2E4 \uB178\uB4DC\uB97C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  child: {fileID: 4680254336373535012}
+  CoolTime: 30
+  isStartCoolTime: 0
+--- !u!114 &-3514117256930687035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4425042e103831744a6699191c2ffef9, type: 3}
+  m_Name: ChangeAggroNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1169d85e3caefb4458c560b4e69ab7c1
+  position: {x: -271.9999, y: 510}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC5B4\uADF8\uB85C\uB97C \uBCC0\uACBD\uD569\uB2C8\uB2E4."
+--- !u!114 &-2876150545484280921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2426173fab6477b44a35e43aca65db54, type: 3}
+  m_Name: PatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: ba1265f4d46db1d49b3565ff9c37549f
+  position: {x: 687.4791, y: 1651.833}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uD328\uD134 \uC911 \uD558\uB098\uB97C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 11
+--- !u!114 &-2741739757635744843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2a1ebbea6add8342a52d603a7f2ee3a, type: 3}
+  m_Name: CheckIsPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 281d2067ede05c44b84b0d9e1e8283f0
+  position: {x: 771.0001, y: 846.0001}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uD328\uD134 \uC911\uC774\uBA74 \uC790\uC2DD \uB178\uB4DC\uB97C \uC2E4\uD589\uD558\uC9C0
+    \uC54A\uC2B5\uB2C8\uB2E4."
+  child: {fileID: -5319716271751810179}
+--- !u!114 &-2347164082813572169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13b56dc050aa134a917b7cceca431fd, type: 3}
+  m_Name: SpecialPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 448756dff9aec7340aeb4b738e29ea06
+  position: {x: -342.00003, y: 1411.9999}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uD2B9\uBCC4 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 3
+  isDisable: 0
+--- !u!114 &-2010854350291528059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1220393912b674549858e16961ad2bba, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 390919419ba9ce746bbb83103e455fb7
+  position: {x: 0.00000047683716, y: -64.865814}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uD589\uB3D9\uD2B8\uB9AC\uC758 \uC2DC\uC791\uC9C0\uC810\uC785\uB2C8\uB2E4."
+  child: {fileID: 5662610472147661455}
+--- !u!114 &-1748044375263105923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad0c56b4238e8846be0a05eb15f8bd1, type: 3}
+  m_Name: IsNeutralizeNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 263230703b4f5f644a4bdec985651c69
+  position: {x: 766.00006, y: 636.0001}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBB34\uB825\uD654 \uC0C1\uD0DC\uC778\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: -1724487431237969144}
+--- !u!114 &-1724487431237969144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb955507cc53dc14baa85290d2a9fa67, type: 3}
+  m_Name: IsCheckHealthNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6489e12fc3fab5845b1bbc04be625046
+  position: {x: 765.99994, y: 726.99994}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uCCB4\uB825\uC774 \uB0A8\uC544\uC788\uB294\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: -2741739757635744843}
+--- !u!114 &-1115297236016761537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da20f8c63f0f3964c86c4b389c0828e9, type: 3}
+  m_Name: CheckRatioNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 6326cfa3ffc2fa84cbe67aa10d6977c2
+  position: {x: -707.0503, y: 1280.7003}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC9C0\uC815\uB41C \uBE44\uC728\uACFC \uCCB4\uB825\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: 6910469487223919242}
+  SetPercent: 0
+  cooperativePattern: 1
+  IsOnlyPhase2: 0
+--- !u!114 &-456413459166354781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a0f181ecb5d29488b02148d3a2ce0f, type: 3}
+  m_Name: CheckIsSummonPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 555005f03924b9f49a38520fa29ec9a8
+  position: {x: 190.99983, y: 1491.4998}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC18C\uD658\uC218 \uD328\uD134 \uC911\uC774\uBA74 \uC790\uC2DD \uB178\uB4DC\uB97C
+    \uC2E4\uD589\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+  child: {fileID: 4657309244359633516}
+  needPatternCount: 0
+--- !u!114 &-395581723209358927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1592aca4dc10f3e4690b299b1d1601f3, type: 3}
+  m_Name: RandomNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fed2eb217dd18bc45acb20d994cc68f2
+  position: {x: 771.4791, y: 1503.833}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC790\uC2E0\uC758 \uC790\uC2DD\uB4E4 \uC911 \uD558\uB098\uB97C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  children:
+  - {fileID: -2876150545484280921}
+  - {fileID: 5117469941130250996}
+--- !u!114 &-389362833277701592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ad0c56b4238e8846be0a05eb15f8bd1, type: 3}
+  m_Name: IsNeutralizeNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 8c5b20613fd584a4e89849bc01bf7d0a
+  position: {x: -317, y: 644}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBB34\uB825\uD654 \uC0C1\uD0DC\uC778\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: -8014993536703869859}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c334522c7831c24ca5db476ef07636f, type: 3}
+  m_Name: New Behavior Tree
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -2010854350291528059}
+  treeState: 0
+  nodes:
+  - {fileID: -2010854350291528059}
+  - {fileID: 5662610472147661455}
+  - {fileID: -5788443950028334189}
+  - {fileID: 2600452214060139264}
+  - {fileID: 4950040666897257114}
+  - {fileID: 2407252297211783485}
+  - {fileID: -2741739757635744843}
+  - {fileID: -9140575694448508886}
+  - {fileID: 4776264816092486273}
+  - {fileID: -7541053887402137666}
+  - {fileID: -3514117256930687035}
+  - {fileID: -2876150545484280921}
+  - {fileID: 5117469941130250996}
+  - {fileID: -4899775345761643352}
+  - {fileID: -6371152538492550014}
+  - {fileID: -395581723209358927}
+  - {fileID: 1114782793022980037}
+  - {fileID: -8979859842835180560}
+  - {fileID: 2705602784924924802}
+  - {fileID: -8001324749021551419}
+  - {fileID: 4657309244359633516}
+  - {fileID: -456413459166354781}
+  - {fileID: 4747260188126047580}
+  - {fileID: -1748044375263105923}
+  - {fileID: -1115297236016761537}
+  - {fileID: -9151206538441652150}
+  - {fileID: -389362833277701592}
+  - {fileID: -6826076804095671389}
+  - {fileID: 1356841420177347777}
+  - {fileID: -4264150893237493456}
+  - {fileID: 5855058360106824017}
+  - {fileID: -8014993536703869859}
+  - {fileID: 4680254336373535012}
+  - {fileID: -5319716271751810179}
+  - {fileID: 6425817239382847025}
+  - {fileID: 6910469487223919242}
+  - {fileID: -8925111402433611325}
+  - {fileID: -7188009402518035007}
+  - {fileID: 1838143596737188168}
+  - {fileID: -9180687421608661548}
+  - {fileID: 2354273880747200495}
+  - {fileID: -2347164082813572169}
+  - {fileID: -5180009765897640352}
+  - {fileID: -1724487431237969144}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0.7
+--- !u!114 &1114782793022980037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfa733995f33efc4cbf3856a86bf7cc9, type: 3}
+  m_Name: PatternCoolTimeNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 5413498bcd73142478aae28088fcd246
+  position: {x: 771.4791, y: 1092.833}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uD328\uD134 \uCFE8\uD0C0\uC784\uC774 \uC788\uB294\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: -4899775345761643352}
+--- !u!114 &1356841420177347777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005a8fd09adac07488dd65e10a24eee2, type: 3}
+  m_Name: IsPhase2Node
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: af9407b63bcf0a243b08828ff07b2ab8
+  position: {x: 119.00008, y: 623.0325}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "2\uD398\uC774\uC988\uC778\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: -5180009765897640352}
+  Reverse: 0
+--- !u!114 &1838143596737188168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dac98997ea81c849a51e1443e9d33ef, type: 3}
+  m_Name: SummonPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2bb8b31c31ee0cc40b74e3dca6a17968
+  position: {x: 233, y: 1252.0002}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uC18C\uD658\uC218 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 3
+--- !u!114 &2354273880747200495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43dfb8e1a3aeaea47b0a03c6494790df, type: 3}
+  m_Name: CheckTimeOverNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 2c283b18acb83704ea83c02e29d8e85a
+  position: {x: -342.0001, y: 1281.0001}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uAC8C\uC784 \uC2DC\uAC04\uC774 \uC9C0\uB0AC\uB294\uC9C0 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: -2347164082813572169}
+--- !u!114 &2407252297211783485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b184d0f7e6ca444afa5c98b570331a, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 979aaf004ad392842bcd332833b277f6
+  position: {x: 168, y: 403}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC790\uC2E0\uC758 \uC790\uC2DD\uB4E4\uC744 \uC21C\uCC28 \uC2E4\uD589\uD558\uBA70
+    \uC131\uACF5 \uC2DC \uC885\uB8CC\uD569\uB2C8\uB2E4."
+  children:
+  - {fileID: -389362833277701592}
+  - {fileID: 1356841420177347777}
+  - {fileID: -1748044375263105923}
+--- !u!114 &2600452214060139264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da20f8c63f0f3964c86c4b389c0828e9, type: 3}
+  m_Name: CheckRatioNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 74437eb6e81a45a4d8d8fd8c22483811
+  position: {x: -889, y: 1281}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC9C0\uC815\uB41C \uBE44\uC728\uACFC \uCCB4\uB825\uC744 \uD655\uC778\uD569\uB2C8\uB2E4."
+  child: {fileID: 6425817239382847025}
+  SetPercent: 25
+  cooperativePattern: 0
+  IsOnlyPhase2: 0
+--- !u!114 &2705602784924924802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dac98997ea81c849a51e1443e9d33ef, type: 3}
+  m_Name: SummonPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 35980871f3cc833488c58bd6ece516e4
+  position: {x: 1058.2389, y: 1670.9998}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uC18C\uD658\uC218 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 0
+--- !u!114 &4657309244359633516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dac98997ea81c849a51e1443e9d33ef, type: 3}
+  m_Name: SummonPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 53463c206ffc5ae408ead1e5ace5b9ad
+  position: {x: 190.99983, y: 1634.4998}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uC18C\uD658\uC218 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 0
+--- !u!114 &4680254336373535012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1592aca4dc10f3e4690b299b1d1601f3, type: 3}
+  m_Name: RandomNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: d2186001df5e60f45b88501385116a39
+  position: {x: 133.99997, y: 1100}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC790\uC2E0\uC758 \uC790\uC2DD\uB4E4 \uC911 \uD558\uB098\uB97C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  children:
+  - {fileID: -7188009402518035007}
+  - {fileID: 1838143596737188168}
+--- !u!114 &4747260188126047580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dac98997ea81c849a51e1443e9d33ef, type: 3}
+  m_Name: SummonPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f95fcdc2f7d3c12448455d5e28115476
+  position: {x: 1231.0326, y: 1669.6775}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uC18C\uD658\uC218 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 1
+--- !u!114 &4776264816092486273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd5ccdaab511004b9d11a620fd01177, type: 3}
+  m_Name: WeightPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 66592ea9742e7e24f9102c634662ac07
+  position: {x: 1416.6243, y: 1377}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uAC00\uC911\uCE58\uC5D0 \uB530\uB978 \uD328\uD134\uC744 \uC2E4\uD589\uD569\uB2C8\uB2E4."
+--- !u!114 &4950040666897257114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5b184d0f7e6ca444afa5c98b570331a, type: 3}
+  m_Name: SelectorNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 733a05c90ea10d94d9725e88eabcc351
+  position: {x: -632.05023, y: 1123.7003}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC790\uC2E0\uC758 \uC790\uC2DD\uB4E4\uC744 \uC21C\uCC28 \uC2E4\uD589\uD558\uBA70
+    \uC131\uACF5 \uC2DC \uC885\uB8CC\uD569\uB2C8\uB2E4."
+  children:
+  - {fileID: 2600452214060139264}
+  - {fileID: -1115297236016761537}
+  - {fileID: -9151206538441652150}
+  - {fileID: 2354273880747200495}
+--- !u!114 &5117469941130250996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2426173fab6477b44a35e43aca65db54, type: 3}
+  m_Name: PatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: f4ea505e68c83ae4882e77f90b61f4f2
+  position: {x: 861.0325, y: 1652}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uD328\uD134 \uC911 \uD558\uB098\uB97C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 12
+--- !u!114 &5662610472147661455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0116dba939485244a7df62ca601843b, type: 3}
+  m_Name: RepeatNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 1
+  guid: 351a0888c3afbcd478c07b6bc92c7737
+  position: {x: 0.00000047683716, y: 22.134216}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uC790\uC2E0\uC758 \uC790\uC2DD\uC744 \uBC18\uBCF5\uD574\uC11C \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  child: {fileID: -5788443950028334189}
+--- !u!114 &5855058360106824017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34d3fd7ef5eb3c544b43d5afd04e7256, type: 3}
+  m_Name: CheckIsSpecialPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: aa0d47e66c18d1e4e93bae80e6baad27
+  position: {x: 119, y: 846.0001}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uD2B9\uBCC4 \uD328\uD134 \uC911\uC774\uBA74 \uC790\uC2DD \uB178\uB4DC\uB97C
+    \uC2E4\uD589\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+  child: {fileID: -4264150893237493456}
+--- !u!114 &6425817239382847025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13b56dc050aa134a917b7cceca431fd, type: 3}
+  m_Name: SpecialPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: b22105e43f9c6e44080b7b23479e0a55
+  position: {x: -889.0503, y: 1411.7003}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uD2B9\uBCC4 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 0
+  isDisable: 0
+--- !u!114 &6910469487223919242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b13b56dc050aa134a917b7cceca431fd, type: 3}
+  m_Name: SpecialPatternNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: a8f8132fe3f3e1a4792f8a1a21a1a8a2
+  position: {x: -702.05023, y: 1411.7003}
+  blackboard:
+    target: {fileID: 0}
+    isPatternProgress: 0
+    isSummonPatternProgress: 0
+    isSpecialPatternProgress: 0
+    PatternCount: 0
+    PatternCoolTime: 0
+  agent: {fileID: 0}
+  description: "\uBCF4\uC2A4\uC758 \uD2B9\uBCC4 \uD328\uD134 \uC911 \uD558\uB098\uB97C
+    \uC2E4\uD589\uD569\uB2C8\uB2E4."
+  bossPattern: 1
+  isDisable: 0

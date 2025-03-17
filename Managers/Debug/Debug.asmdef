@@ -1,0 +1,23 @@
+{
+    "name": "Debug",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7955c437dd13e1e48977af0a736af7bd",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:1491147abca9d7d4bb7105af628b223e",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:c79bcb8f3ae271746b5beb320e6deb38",
+        "GUID:9160e3bf75660f34cab0927b33241180",
+        "GUID:16fe7f84737f880428388d9b84d35bed",
+        "GUID:7b96a2c421762eb4594dd6aaeb0a16f9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

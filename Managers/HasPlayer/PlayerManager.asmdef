@@ -1,0 +1,27 @@
+{
+    "name": "PlayerManager",
+    "rootNamespace": "",
+    "references": [
+        "GUID:16fe7f84737f880428388d9b84d35bed",
+        "GUID:1491147abca9d7d4bb7105af628b223e",
+        "GUID:e9e5562f77c754b2ca364915385b3d43",
+        "GUID:9160e3bf75660f34cab0927b33241180",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:4ffe3249bc841464abc6ec7cdd53b4f4",
+        "GUID:c79bcb8f3ae271746b5beb320e6deb38",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:a96d9cb5a849f0c48b1f2d7c2852b8a1",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:23fd23c5524874a269007fafbad683ec",
+        "GUID:0c752da273b17c547ae705acf0f2adf2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

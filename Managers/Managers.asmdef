@@ -1,0 +1,29 @@
+{
+    "name": "Managers",
+    "rootNamespace": "",
+    "references": [
+        "Unity.Netcode.Runtime",
+        "Utilities",
+        "UniTask",
+        "Unity.Multiplayer.Samples.Utilities.ClientAuthority",
+        "Unity.Multiplayer.Samples.Utilities",
+        "ParticleImage",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.Cinemachine",
+        "FMODUnity",
+        "FMODPlusAssembly",
+        "Interface",
+        "Datas",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
